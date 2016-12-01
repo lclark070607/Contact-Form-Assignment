@@ -1,5 +1,8 @@
     body {
         background-color: lightblue;
+        font: .8em Open Sans, sans-serif;
+        color: grey;
+        text-shadow: .5px .5px grey;
     }
 
     ul {
@@ -14,23 +17,69 @@
   width: 100%;
 }
 
+input {
+    text-decoration: none;
+    border: none;
+    padding-left: 10px;
+    width: 90%;
+}
+
+p {
+    padding-left: 10px;
+}
+
 .box {
     width: 50%;
     height: 85px;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     background-color: white;
 }
 
 .box2 {
     width: 33.3%;
     height: 85px;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     background-color: white;
 }
 
 .box3 {
     width: 25%;
     height: 85px;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     background-color: white;
+}
+
+.box4 {
+    width: 100%;
+    height: 85px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+button {
+    background-color: #3fad30;
+    border: none;
+    color: white;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-shadow: 1px 1px 1px grey;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    text-shadow: 1px 1px grey;
+    margin-top: 25px;
+    margin-left: 475px;
+    cursor: pointer;
+}
+
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color:black; 
+    color: white;
 }
