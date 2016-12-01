@@ -1,9 +1,12 @@
     body {
-        background-color: lightblue;
+        background-color: white;
         height: 800px;
         font: .8em Open Sans, sans-serif;
         color: grey;
         text-shadow: .5px .5px grey;
+    }
+    form {
+        border: 6px solid lightblue;
     }
 
     ul {
@@ -11,8 +14,6 @@
     margin: 0;
     padding: 20;
   display: flex;
-  justify-content: center;
-  align-items: stretch;
   padding: 0px;
   font: 1em Raleway, sans-serif;
   width: 100%;
